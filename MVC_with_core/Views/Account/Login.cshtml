@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body bgColor="skyBlue">
+    
+    <img src="~/images/login.png" height="35%" width="35%"/>
+    
+    <form action="/Account/Validate">
+    
+        <table>
+            <tr>
+                <td>
+                    User Name :
+                </td>
+                <td>
+                    <input required name="uName" id="userName" type="text" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Password :
+                </td>
+                <td>
+                    <input name="uPwd" id="password" type="password" />
+                </td>
+            </tr>
+            <tr>
+                <td><input value="Login" id="Submit" type="submit" value="submit" /></td>
+                <td><input value="Cancel" id="Reset" type="reset" value="reset" /></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
