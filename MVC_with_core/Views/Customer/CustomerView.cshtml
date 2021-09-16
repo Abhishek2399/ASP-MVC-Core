@@ -1,0 +1,23 @@
+﻿@using System.Collections.Generic; <!-- For using c# code use as prefix-->
+<body bgColor="Gold">
+    <h1> Customers </h1>
+    <div bgColor="Red">
+        @{
+            <p>@ViewData["name"]</p>
+            //List<int> v = ViewData["data"] as List<int>; // Explicit Type Casting Required
+            List<int> v = ViewBag.data; // no explicit type casting required
+            <table border="4" , bgColor="Cyan" , width="25%">
+            <td><p align="center"> Data </p>   </td>
+
+            @{
+                foreach (int t in v)
+                {
+                    <tr>
+                        <td><p align="center"> @t </p>   </td>
+                    </tr>
+                }
+            }
+            </table>
+        }
+    </div>
+</body>

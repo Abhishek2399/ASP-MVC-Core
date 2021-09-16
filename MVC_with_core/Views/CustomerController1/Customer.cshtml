@@ -1,0 +1,19 @@
+﻿@using System.Collections.Generic; <!-- For using c# code use as prefix--> 
+<body>
+
+    <h1> Customers </h1>
+    @{ 
+        <p>@ViewData["name"]</p>
+        List<int> v = ViewData["data"] as List<int>;
+        foreach(int t in v){
+            <table border="1", bgColor="Gold">
+                <tr>
+                    <td><p> @t </p>   </td>
+                </tr>
+            </table>
+             
+            }
+    }
+
+
+</body>

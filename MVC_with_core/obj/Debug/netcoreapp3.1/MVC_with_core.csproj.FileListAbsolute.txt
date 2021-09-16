@@ -41,3 +41,5 @@ D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\ne
 D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddView.cshtml.g.cs
 D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\netcoreapp3.1\Razor\Views\Account\Invalid.cshtml.g.cs
 D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\netcoreapp3.1\Razor\Views\Account\Valid.cshtml.g.cs
+D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\netcoreapp3.1\Razor\Views\CustomerController1\Customer.cshtml.g.cs
+D:\capgemini\training\technical\ASP MVC\MVC_with_core\MVC_with_core\obj\Debug\netcoreapp3.1\Razor\Views\Customer\CustomerView.cshtml.g.cs

@@ -46,7 +46,7 @@ namespace MVC_with_core
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(name: "def", pattern: "{controller=Account}/{action=Login}/{id?}");
+                endpoints.MapControllerRoute(name: "def", pattern: "{controller=Customer}/{action=CustomerData}/{id?}");
                 // which controller it should invoke 
                 // Name of the route file is "def" default
                 // Pattern i.e. after domain name / controller name / action method / id
